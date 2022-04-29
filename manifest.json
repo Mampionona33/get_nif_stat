@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Copy selected row to clipboard",
+  "version": "0.0.1",
+  "description": "Go to https://hetraonline.impots.mg/ -> Immatriculation -> Répertoire NIFONLINE.\b Make search then select one row and execute the command  'Ctrl+Shif+X'  ",
+
+  "action": {
+    "default_icon": {
+      "16": "images/baseline_content_copy_black_16dp.png",
+      "24": "images/baseline_content_copy_black_24dp.png",
+      "32": "images/baseline_content_copy_black_32dp.png"
+    }
+  },
+
+  "permissions": ["activeTab", "scripting"],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "copy-selected-rows-to-clipboard": {
+      "suggested_key": "Ctrl+Shift+X",
+      "description": "Copy selected row to clipboard"
+    }
+  }
+}
