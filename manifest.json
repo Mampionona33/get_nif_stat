@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "hetraonline.impots.mg Copy to clipBoard",
+  "name": "Taxpayer Data Retriver",
   "version": "0.0.1",
   "description": "Go to https://hetraonline.impots.mg/ -> Immatriculation -> Répertoire NIFONLINE.\b Make search then select one row and execute the command  'Ctrl+Shif+X'  ",
 
